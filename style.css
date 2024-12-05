@@ -27,29 +27,29 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end; 
-    padding-right: 400px;
+    padding-right: 300px;
     text-align: right;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 50px;
     margin: 0;
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
     margin: 10px 0 20px;
 }
 
 .buttons {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .button {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
-    border: 2px solid white; /* White border */
+    border: 2px solid white; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -57,6 +57,6 @@ p {
 }
 
 .button:hover {
-    background-color: white; /* Change background on hover */
-    color: black; /* Change text color on hover */
+    background-color: white;
+    color: black;
 }
