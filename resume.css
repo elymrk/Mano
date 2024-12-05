@@ -7,14 +7,14 @@ body {
 
 h1 {
     text-align: center;
-    color: #001d3d;
+    color: #1d3557;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
 .head {
     text-align: center;
-    color: #001d3d;
+    color: #1d3557;
     border-bottom: 2px solid #2c3e50;
     padding-bottom: 15px;
     width: 70%; /* Adjust this percentage or use pixels (e.g., 400px) */
@@ -24,13 +24,13 @@ h1 {
 h2 {
     text-decoration: underline;
     padding-left: 40px;
-    color: #001d3d
+    color: #1d3557;
     padding-bottom: 15px;
     margin-bottom: 10px;
 }
 
 p {
-    color: #000814;
+    color: #1d3557;
     margin-top: 0px;
     padding: 0px 40px;
 }
@@ -40,10 +40,12 @@ table {
     border-collapse: collapse;
     margin-top: 10px;
     margin-left: 40px;
+    color: #1d3557;
   }
 
 th, td {
     padding: 10px;
     text-align: left;
+    color: #1d3557;
     
   }
