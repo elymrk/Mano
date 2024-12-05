@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('images/IMG_8461_1.JPG'); 
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 48, 73, 0.5); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    padding-right: 700px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+p {
+    font-size: 30;
+    margin: 10px 0 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid ;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
